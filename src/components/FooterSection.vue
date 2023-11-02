@@ -4,35 +4,38 @@
 <footer class="footer bg-footer">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+            <!-- <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
                 <p class="mt-4">Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</p>
-            </div><!--end col-->
+            </div> -->
 
-            <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                <h4 class="text-light footer-head">Landing</h4>
+            <div class="col-lg-3 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                <h4 class="text-light footer-head">Quick links </h4>
                 <ul class="list-unstyled footer-list mt-4">
-                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Agency</a></li>
-                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Software</a></li>
-                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Startup</a></li>
-                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Business</a></li>
-                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Hosting</a></li>
-                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Studio</a></li>
+                    <li><RouterLink to="/"  class="nav-link active tex-foot" aria-current="page" href="#experience">Home</RouterLink></li>  
+                    <li><RouterLink to="/about"  class="nav-link tex-foot" aria-current="page" href="#experience">About us</RouterLink></li> 
+                    <li><RouterLink to="/service"  class="nav-link  tex-foot" aria-current="page" href="#experience">Services</RouterLink></li> 
+                    <li><RouterLink to="/gallary"  class="nav-link active tex-foot" aria-current="page" href="#experience">Gallary</RouterLink></li>  
+                    <li><RouterLink to="/contact" class=" nav-link tex-foot" aria-current="page" href="#experience">Contacts</RouterLink> </li> 
                 </ul>
             </div><!--end col-->
 
-            <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                <h4 class="text-light footer-head">About</h4>
-                <ul class="list-unstyled footer-list mt-4">
-                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> About us</a></li>
-                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Services</a></li>
-                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Team</a></li>
-                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Terms Policy</a></li>
-                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Privacy Policy</a></li>
-                    <li><a href="javascript:void(0)" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Login</a></li>
-                </ul>
-            </div><!--end col-->
+            <div class="col-md-6">
+                <h4 class="text-light footer-head">LOCATION</h4>
+                
+                <div class="card w-50 p-1">
+                    <div class="card-body">
+                      <h5 class="card-title">Head Quaters</h5>
+                    </div>
+                    <div class="ratio ratio-4x3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.4496508844227!2d39.264686985377715!3d-6.836569275528865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4b4b5756532d%3A0x1b447e617e708702!2sOverland%20carriers%20%26%20E.%20Awadh%20company!5e0!3m2!1spl!2spl!4v1698931297389!5m2!1spl!2spl" width="600" height="450" style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div> 
+            </div>
+            <!-- end col -->
 
-            <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+             
+
+            <!-- <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                 <h4 class="text-light footer-head">Locations</h4>
                 <ul class="list-unstyled footer-list mt-4">
                     <li><a href="#" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> San Francisco</a></li>
@@ -40,28 +43,36 @@
                     <li><a href="#" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> South Korea</a></li>
                     <li><a href="#" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Myanmar</a></li>
                 </ul>
-            </div><!--end col-->
+            </div> -->
         </div><!--end row-->
     </div><!--end container-->
 </footer>
 <footer class="footer bg-footer footer-bar">
     <div class="container text-center">
         <div class="row align-items-center">
-            <div class="col-sm-6">
+
+            <div class="col-sm-4">
                 <div class="text-sm-left">
-                    <p class="mb-0">&copy; 2020. Design with <i class="mdi mdi-heart text-danger"></i></p>
+                    <p class=""> Copyright &copy; Overland carriers & forwarders (T) LTD 2023. All right reserve </p>
                 </div>
             </div><!--end col-->
 
-            <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+            <div class="col-sm-4">
+                <ul class="list-unstyled footer-list mt-4">
+                    <li><a class=" nav-link tex-foot" href="https://www.overland.co.tz/Login">Customer Log in</a></li> 
+                </ul>   
+            </div> <!-- end col  -->
+
+            <div class="col-sm-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
                 <ul class="list-unstyled text-sm-right social-icon social mb-0">
-                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-facebook" title="Facebook"></i></a></li>
-                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-instagram" title="Instagram"></i></a></li>
-                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-twitter" title="Twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-google-plus" title="Google +"></i></a></li>
-                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="mdi mdi-linkedin" title="Linkedin"></i></a></li>
+                    <li class=" text-footdd list-inline-item"><a href="" class="rounded"><i class="mdi mdi-facebook" title="Facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/overlandcarriers/?hl=en" class="rounded"><i class="mdi mdi-instagram" title="Instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.overland.co.tz/About-Us#" class="rounded"><i class="mdi mdi-twitter" title="Twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="jhttps://www.youtube.com/channel/UC5f_2C5rs0m9nqM15OT_byg" class="rounded"><i class="mdi mdi-youtube" title="YouTube"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/company/overland-carriers/" class="rounded"><i class="mdi mdi-linkedin" title="Linkedin"></i></a></li>
                 </ul><!--end icon-->
             </div><!--end col-->
+
         </div><!--end row-->
     </div><!--end container-->
 </footer>

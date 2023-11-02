@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar shadow navbar-expand-lg ">
         <div class="container-fluid">
           <!-- <a class="navbar-brand" href="#">Logo</a> -->
           <RouterLink to="/" style="color: teal;" class="navbar-brand" aria-current="page" href="#experience">
