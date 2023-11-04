@@ -8,8 +8,8 @@
                 <p class="mt-4">Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</p>
             </div> -->
 
-            <div class="col-lg-3 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                <h4 class="text-light footer-head">Quick links </h4>
+            <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                <h4 class="text-light footer-head">QUICK LINKS </h4>
                 <ul class="list-unstyled footer-list mt-4">
                     <li><RouterLink to="/"  class="nav-link active tex-foot" aria-current="page" href="#experience">Home</RouterLink></li>  
                     <li><RouterLink to="/about"  class="nav-link tex-foot" aria-current="page" href="#experience">About us</RouterLink></li> 
@@ -19,10 +19,10 @@
                 </ul>
             </div><!--end col-->
 
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <h4 class="text-light footer-head">LOCATION</h4>
                 
-                <div class="card w-50 p-1">
+                <div class="card w-50 ">
                     <div class="card-body">
                       <h5 class="card-title">Head Quaters</h5>
                     </div>
@@ -30,20 +30,60 @@
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.4496508844227!2d39.264686985377715!3d-6.836569275528865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4b4b5756532d%3A0x1b447e617e708702!2sOverland%20carriers%20%26%20E.%20Awadh%20company!5e0!3m2!1spl!2spl!4v1698931297389!5m2!1spl!2spl" width="600" height="450" style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div> 
+
             </div>
             <!-- end col -->
 
              
 
-            <!-- <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                <h4 class="text-light footer-head">Locations</h4>
-                <ul class="list-unstyled footer-list mt-4">
-                    <li><a href="#" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> San Francisco</a></li>
-                    <li><a href="#" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Tokio</a></li>
-                    <li><a href="#" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> South Korea</a></li>
-                    <li><a href="#" class="text-foot"><i class="mdi mdi-chevron-right mr-1"></i> Myanmar</a></li>
-                </ul>
-            </div> -->
+            <div class=" col-md-4 ">
+                <!-- <h4 class="text-light footer-head"></h4> -->
+                <!-- Gallery -->
+<div class="row">
+    <div class="col-lg-4 col-sd-12 sb-4 sb-lg-0">
+      <img
+        src="../assets/images/clients/IMG_1362.png"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Boat on Calm Water"
+      />
+  
+      <img
+        src="../assets/images/clients/tat.png"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Wintry Mountain Landscape"
+      />
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src="../assets/images/clients/tatoa.png"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Mountains in the Clouds"
+      />
+  
+      <img
+        src="../assets/images/clients/logo-07.png"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Boat on Calm Water"
+      />
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src="../assets/images/clients/osha.png"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Waves at Sea"
+      />
+  
+      <img
+        src="../assets/images/clients/gcia.png"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Yosemite National Park"
+      />
+    </div>
+  </div>
+  <!-- Gallery -->
+            </div>
         </div><!--end row-->
     </div><!--end container-->
 </footer>

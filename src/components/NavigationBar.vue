@@ -11,11 +11,11 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <RouterLink to="/" style="color: teal;" class="nav-link active" aria-current="page" href="#experience">Home</RouterLink>
-                <RouterLink to="/about" style="color: teal;" class="nav-link col" aria-current="page" href="#experience">About us</RouterLink>
-                <RouterLink to="/service" style="color: teal;" class="nav-link active" aria-current="page" href="#experience">Services</RouterLink>
-                <RouterLink to="/gallary" style="color: teal;" class="nav-link active" aria-current="page" href="#experience">Gallary</RouterLink>
-                <RouterLink to="/contact" style="color: teal;" class="nav-link active" aria-current="page" href="#experience">Contacts</RouterLink>
+                <RouterLink to="/" style="color:;" class="nav-link navbar-brand active" aria-current="page" href="#experience">Home</RouterLink>
+                <RouterLink to="/about" style="color:;" class="nav-link navbar-brand " aria-current="page" href="#experience">About us</RouterLink>
+                <RouterLink to="/service" style="color:;" class="nav-link navbar-brand active" aria-current="page" href="#experience">Services</RouterLink>
+                <RouterLink to="/gallary" style="color:;" class="nav-link navbar-brand active" aria-current="page" href="#experience">Gallary</RouterLink>
+                <RouterLink to="/contact" style="color:;" class="nav-link navbar-brand active" aria-current="page" href="#experience">Contacts</RouterLink>
             </div>
           </div>
         </div>
