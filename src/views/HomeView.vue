@@ -1,6 +1,9 @@
 <template>
-<Slideshow></Slideshow>
-<BodySection></BodySection>
+  <div>
+    <Slideshow></Slideshow>
+    <BodySection></BodySection>
+  </div>
+
 <!-- <FooterSection></FooterSection> -->
 </template>
 <script>

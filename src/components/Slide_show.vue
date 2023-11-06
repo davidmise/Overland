@@ -4,7 +4,12 @@
       <div class="carousel-inner">
         <div v-for="(image, index) in images" :key="index" :class="['carousel-item', index === 0 ? 'active' : '']">
           <img :src="image" class="d-block w-100" alt="Slide" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
         </div>
+       
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -19,13 +24,13 @@
 </template>
 
 <script>
-import bridge from '../assets/images/carousal/bridge.jpg';
-import lorries from '../assets/images/carousal/lorries.jpg';
-import lorry from '../assets/images/carousal/lorry.jpg';
+import bridge from '../assets/images/carousal/bridge.png';
+import lorries from '../assets/images/carousal/lorries.png';
+import lorry from '../assets/images/carousal/lorry.png';
 export default {
   data() {
     return {
-      images: [ bridge,lorries,lorry]
+      images: [ bridge,lorries,lorry ]
     };
   },
 };

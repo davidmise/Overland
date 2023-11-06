@@ -1,26 +1,19 @@
 <template>
   <div>
-   <NavigationBar></NavigationBar>
+    <NavigationBar></NavigationBar>
+    <RouterView />
+    <FooterSection></FooterSection>
   </div>
-  <RouterView />
-  <footerSection></footerSection>
 </template>
+
 <script>
 import NavigationBar from './components/NavigationBar.vue';
-import footerSection from './components/footerSection.vue';
+import FooterSection from './components/FooterSection.vue';
 
-
-export default{
-  data() {
-    return {
-      
-    }
-  },
-
-  components:{
+export default {
+  components: {
     NavigationBar,
-    footerSection
-  }
-}
-
+    FooterSection,
+  },
+};
 </script>
