@@ -24,7 +24,8 @@
                          alt="" width="200" class="img-fluid rounded-circle mb-3">
                          <h5 class="mb-0" style="color: rgb(32, 32, 98);">CLEARING AND FORWARDING</h5>
                          <!-- <span class="small text-uppercase text-muted">CEO - Founder</span> -->
-                         <div class="card-body pt-2 fs-5" style="color:aliceblue; font-size:large; "> <p> We quarantee timel deliver o sea cargo bv oftering suitable vessels. ensuring etticient 
+                         <div class="card-body pt-2 fs-5" style="color:aliceblue; font-size:large; ">
+                             <p> We quarantee timel deliver o sea cargo bv oftering suitable vessels. ensuring etticient 
                          handling from the origin countrv to the destination</p> </div>
                     </div>
                 </div><!-- End -->
@@ -40,7 +41,8 @@
                           <h5 class="mb-0 pt-1" style="color: rgb(32, 32, 98)">CARGO TRACKING</h5>
                           <!-- <span class="small text-uppercase 
                           text-muted">CEO - Founder</span> -->
-                          <div class="card-body pt-2 fs-5" style="color:aliceblue"> <p>ve've developea a user-triendly ana robust 
+                          <div class="card-body pt-2 fs-5" style="color:aliceblue">
+                             <p>ve've developea a user-triendly ana robust 
                               shipment management intertace that empowers our customers to track 
                               their cargo's journev from the point of loading to its final destination</p> 
                           </div>
@@ -104,8 +106,8 @@
                       </div>  -->
                       <!-- <video width="500" height="320" :src="main.video" type="video/mp4">
                       </video> -->
-                      <video autoplay :src="main.bgVideo" type="video/mp4">
-                          <!-- <source :src="main.bgVideo" type="video/mp4"> -->
+                      <video width="320" height="240">
+                          <source :src="main.bgVideo" type="video/mp4">
                       </video>
                   </div>
               </div><!-- End -->
@@ -115,7 +117,7 @@
 </template>
 
 <script>
-import video from "../assets/videos/mapanimated.mp4"
+import video from "../assets/videos/mm.mp4"
 export default {
     data(){
         return {
@@ -124,7 +126,17 @@ export default {
                 video: video,
             }
         }
-    }
+    },
+    // methods: {
+    //     supportType(e,vidType,codType) { 
+    //         let vid = document.createElement('video');
+    //         isSupp = vid.canPlayType(vidType+';codecs="'+codType+'"');
+    //         if (isSupp == "") {
+    //             isSupp = "No";
+    //         }
+    //         e.target.parentNode.innerHTML = "Answer: " + isSupp;
+    //     } 
+    // },
 }
 </script>
 

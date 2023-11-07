@@ -33,13 +33,13 @@
 
                               <img
                               src="../assets/images/clients/tat.png"
-                              class="w-100 shadow-1-strong rounded mb-4 pt-1"
+                              class="w-100 shadow-1-strong rounded mb-4 my-img"
                               alt="Wintry Mountain Landscape"
                               />
 
                               <img
                                 src="../assets/images/clients/latra.png"
-                                class="w-100 shadow-1-strong col-md-6 col-sm-12 rounded mb-4 pt-5"
+                                class="w-100 shadow-1-strong rounded mb-4 pt-5"
                                 alt="Boat on Calm Water"
                               />
                           
@@ -112,6 +112,13 @@
 </template>
 
 <style>
+.my-img{
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
 body{margin-top:20px;}
 .bg-footer {
     background-color: #3b4757 !important;
