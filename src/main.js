@@ -8,6 +8,10 @@ import router from './router'
 
 import $ from 'jquery'
 
+// import Vue from 'vue';
+// import Carousel3d from 'vue-carousel-3d';
+// Vue.use(Carousel3d);
+
 const app = createApp(App)
 //  boostrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,5 +22,4 @@ import 'animate.css'
 app.use(createPinia())
 app.use(router)
 app.use($)
-
 app.mount('#app')
