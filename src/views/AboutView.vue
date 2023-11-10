@@ -23,7 +23,7 @@
 
 </template>
 <script>
-import bridge from '../assets/images/carousal/about_slide.png';
+import bridge from '../assets/images/carousal/carusal0.jpeg';
 import TimeLine from '../components/About_us_TimeLine.vue'
 import RoundedCards from '../components/About_us_RoundedCards.vue';
 import HorizontalTimeline from '../components/About_us_Horizontal_Timeline.vue';

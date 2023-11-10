@@ -150,7 +150,7 @@
         </div>
 
         
-        <div class="text-muted mt-5  text-center small">by : <a class="text-muted" target="_blank" href="http://totoprayogo.com">totoprayogo.com</a></div>
+        <!-- <div class="text-muted mt-5  text-center small">by : <a class="text-muted" target="_blank" href="http://totoprayogo.com">totoprayogo.com</a></div> -->
         
    </div>
 </template>

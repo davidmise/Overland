@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div v-for="(image, index) in images" :key="index" :class="['carousel-item', index === 0 ? 'active' : '']">
           <img :src="image" class="d-block w-100" alt="Slide" />
@@ -24,9 +24,9 @@
 </template>
 
 <script>
-import bridge from '../assets/images/carousal/bridge.png';
-import lorries from '../assets/images/carousal/lorries.png';
-import lorry from '../assets/images/carousal/lorry.png';
+import bridge from '../assets/images/carousal/carusal0.jpeg';
+import lorries from '../assets/images/carousal/carusal1.jpeg';
+import lorry from '../assets/images/carousal/carusal2.jpeg';
 export default {
   data() {
     return {

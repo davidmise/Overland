@@ -14,7 +14,7 @@
                 <RouterLink to="/" style="color: rgb(32, 32, 98);" class="nav-link navbar-brand active  d-flex justify-content-center" aria-current="page" href="#experience">Home</RouterLink>
                 <RouterLink to="/about" style="color: rgb(32, 32, 98);" class="nav-link navbar-brand  d-flex justify-content-center" aria-current="page" href="#experience">About us</RouterLink>
                 <RouterLink to="/service" style="color: rgb(32, 32, 98);" class="nav-link navbar-brand active  d-flex justify-content-center" aria-current="page" href="#experience">Services</RouterLink>
-                <RouterLink to="/gallary" style="color: rgb(32, 32, 98);" class="nav-link navbar-brand active d-flex justify-content-center" aria-current="page" href="#experience">Gallary</RouterLink>
+                <RouterLink to="/gallary" style="color: rgb(32, 32, 98);" class="nav-link navbar-brand active d-flex justify-content-center" aria-current="page" href="#experience">Gallery</RouterLink>
                 <RouterLink to="/contact" style="color: rgb(32, 32, 98);" class="nav-link navbar-brand active d-flex justify-content-center" aria-current="page" href="#experience">Contacts</RouterLink>
             </div>
           </div>
