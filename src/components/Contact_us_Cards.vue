@@ -7,7 +7,7 @@
                     <div class="card-title">
                         <h5 class="mb-0" style="color: black);">ADDRESS</h5>
                     </div>
-                        <!-- <span class="small text-uppercase text-muted">CEO - Founder</span> -->
+                      
                         <div class="card-body pt-2 fs-5 text-secondary" style=" font-size:large; ">
                             <p > We quarantee timel deliver o sea cargo bv oftering suitable vessels. ensuring etticient 
                         handling from the origin countrv to the destination</p> </div>
@@ -18,7 +18,7 @@
                         <div class="card-title">
                             <h5 class="mb-0" style="color: rgb(32, 32, 98);">EMAIL US</h5>
                         </div>
-                        <!-- <span class="small text-uppercase text-muted">CEO - Founder</span> -->
+                        
                         <div class="card-body pt-2 fs-5 text-secondary" style=" font-size:large; ">
                             <p>
                                  We quarantee timel deliver o sea cargo bv oftering suitable vessels. ensuring etticient 
@@ -38,7 +38,7 @@
                         <div class="card-title">
                             <h5 class="mb-0 text-secondary" style="color: rgb(32, 32, 98);">LIVE MAP </h5>
                         </div>
-                        <!-- <span class="small text-uppercase text-muted">CEO - Founder</span> -->
+                        
                         <div class="card-body pt-2 fs-5" style="color:aliceblue; font-size:large; ">
                             <p> We quarantee timel deliver o sea cargo bv oftering suitable vessels. ensuring etticient 
                         handling from the origin countrv to the destination</p> </div>
@@ -50,7 +50,7 @@
                         <div class="card-title">
                             <h5 class="mb-0" style="color: rgb(32, 32, 98);">CLEARING AND FORWARDING</h5>
                         </div>
-                        <!-- <span class="small text-uppercase text-muted">CEO - Founder</span> -->
+                       
                         <div class="card-body pt-2 fs-5" style="color:aliceblue; font-size:large; ">
                             <!-- form starts here -->
                   <form action="">
@@ -63,19 +63,19 @@
                       <input  type="password" name="pass" id="password" class="form-control my-4 py-2" placeholder="Password"/>
 
                       <!-- eye-icon -->
-                      <span class="eye-icon" >
+                      <!-- <span class="eye-icon" >
                         <i class="fa fa-eye"></i>
-                      </span>
+                      </span> -->
                     </div>
                   
                    <!-- button -->
                     <div class="text-center mt-3">
                         <button type="submit" class="btn btn-primary px-lg-5" style="background-color: teal; border:none;" name="submit">Login</button>
                     </div> 
-                    <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
-                     <router-link to="/">
-                        <span style="color: teal;"> Do not have an Acount?</span>
-                     </router-link>
+                  
+                     <a class=" nav-link" href="https://www.overland.co.tz/Login/">
+                        <span style="color: black;" > Do not have an Acount?</span>
+                     </a>
                   </form>                     </div>
                     </div>
                 </div><!-- End -->

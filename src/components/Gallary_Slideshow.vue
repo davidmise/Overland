@@ -1,11 +1,6 @@
 <template>
     <div>
         
-<!-- A Lightbox is basically a slider (carousel) inside of a modal.
-
-  Todos: fix active class (when you click on a photo, carousel in modal reverts to first slide) 
- *solution: added data-slide-to and data-target to imgs
--->
 <div class="container py-1">
     <div class="row text-white">
         <div class="col-lg-8 mx-auto">
@@ -17,29 +12,29 @@
 
     <div class="row d-flex flex-wrap align-items-center" data-toggle="modal" data-target="#lightbox">
       <div class="col-12  col-sm-10 col-md-6 col-lg-6">    
-         <img src="../assets/images/carousal/carusal0.jpeg" data-target="#indicators" data-slide-to="0" alt="" /> 
+         <img src="../assets/images/gallery_page/1.jpeg" data-target="#indicators" data-slide-to="0" alt="" /> 
       </div>
 
       <div class="col-12 col-sm-10 col-md-6 col col-lg-6">
-           <img src="../assets/images/carousal/carusal2.jpeg" data-target="#indicators" data-slide-to="1" alt="" />
+           <img src="../assets/images/gallery_page/2.jpeg" data-target="#indicators" data-slide-to="1" alt="" />
       </div>
     </div>
 
     <div class="row d-flex flex-wrap align-items-center" data-toggle="modal" data-target="#lightbox">
         <div class="col-12 col-sm-10 col-md-6 col-lg-3">
-            <img src="../assets/images/carousal/carusal0.jpeg" data-target="#indicators" data-slide-to="2"  alt="" />
+            <img src="../assets/images/gallery_page/3.jpeg" data-target="#indicators" data-slide-to="2"  alt="" />
         </div>
 
         <div class="col-12  col-sm-10 col-md-6 col-lg-3">
-            <img src="../assets/images/carousal/carusal1.jpeg" data-target="#indicators" data-slide-to="3" alt="" />
+            <img src="../assets/images/gallery_page/4.jpeg" data-target="#indicators" data-slide-to="3" alt="" />
         </div>
 
         <div class="col-12 col-sm-10 col-md-6 col-lg-3">
-            <img src="../assets/images/carousal/carusal2.jpeg" data-target="#indicators" data-slide-to="3"  alt="" />
+            <img src="../assets/images/gallery_page/5.jpeg" data-target="#indicators" data-slide-to="3"  alt="" />
         </div>
 
         <div class="col-12 col-sm-10 col-md-6 col-lg-3">
-            <img src="../assets/images/carousal/carusal1.jpeg" data-target="#indicators" data-slide-to="4" alt="" />
+            <img src="../assets/images/gallery_page/6.jpeg" data-target="#indicators" data-slide-to="4" alt="" />
         </div> 
     </div>
     
@@ -63,22 +58,22 @@
         
         <div class="carousel-item active">
           
-          <img class="d-block w-100" src="../assets/images/carousal/carusal2.jpeg" alt="First slide">
+          <img class="d-block w-100" src="../assets/images/gallery_page/7.jpeg" alt="First slide">
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="../assets/images/carousal/carusal0.jpeg" alt="Second slide">
+          <img class="d-block w-100" src="../assets/images/gallery_page/8.jpeg" alt="Second slide">
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="../assets/images/carousal/carusal1.jpeg" alt="Third slide">
+          <img class="d-block w-100" src="../assets/images/gallery_page/9.jpeg" alt="Third slide">
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="../assets/images/carousal/carusal0.jpeg" alt="Fourth slide">
+          <img class="d-block w-100" src="../assets/images/gallery_page/10.jpeg" alt="Fourth slide">
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="../assets/images/carousal/carusal2.jpeg" alt="Fifth slide">
+          <img class="d-block w-100" src="../assets/images/gallery_page/11.jpeg" alt="Fifth slide">
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="../assets/images/carousal/carusal1.jpeg" alt="Sixth slide">
+          <img class="d-block w-100" src="../assets/images/gallery_page/12.jpeg" alt="Sixth slide">
         </div>
       </div>
       <a class="carousel-control-prev" href="#indicators" role="button" data-slide="prev">
@@ -90,102 +85,140 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    
         </div>
       </div>
     </div>
  </div>
         
-        <div class="container py-1">
+      
+        <div class="container mt-6">
             <div class="row text-white">
-                <div class="col-lg-8 mx-auto">
-                    <h3> Images </h3>
+                <div class="col-lg-8  mt-5 mx-auto">
+                    <h3> videos </h3>
                 </div>
             </div>
         </div><!-- End -->
 
-        <!-- <div id="slider" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <input type="radio" name="slider" id="s1" checked>
-                <input type="radio" name="slider" id="s2">
-                    <input type="radio" name="slider" id="s3" >
-                        <input type="radio" name="slider" id="s4">
-                            <input type="radio" name="slider" id="s5">
-    
-    
-            <label for="s1" id="slide1">
-                <img src="../assets/images/carousal/carusal1.jpeg" alt="" height="50" width="50">
-                
-            </label>
         
-            <label for="s2" id="slide2">
-                <img src="../assets/images/carousal/carusal2.jpeg" alt="" height="50%" width="50%">
-                
-            </label>
-            
-            <label for="s3" id="slide3">
-                <img src="../assets/images/carousal/carusal2.jpeg" alt="" height="100%" width="100%">
-                
-            </label>
-            
-            <label for="s4" id="slide4">
-                <img src="../assets/images/carousal/carusal1.jpeg" alt="" height="100%" width="100%">
-                
-            </label>
-            
-            <label for="s5" id="slide5">
-                <img src="../assets/images/carousal/carusal0.jpeg" alt="" height="100%" width="100%">
-                
-            </label>
-
-        </div> -->
-     
-    
-        <base href="../assets/images/carousal/bridge.png">
-        <div id="carousel" @click="galleryspin('-')">
-          <figure id="spinner">
-            <img src="../assets/images/carousal/carusal0.jpeg" alt="img1">
-            <img src="../assets/images/carousal/carusal1.jpeg" alt="img1">
-            <img src="../assets/images/carousal/carusal2.jpeg" alt="img1">
-            <img src="../assets/images/carousal/carusal0.jpeg" alt="img1">
-            <img src="../assets/images/carousal/carusal2.jpeg" alt="img1">
-            <img src="../assets/images/carousal/carusal1.jpeg" alt="img1">
-            <img src="../assets/images/carousal/carusal0.jpeg" alt="img1">
-            <img src="../assets/images/carousal/carusal2.jpeg" alt="img1">
-          </figure>
+        <div class="container pb-5">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 mt-4 col-sm-6 card bg-transparent "> <video class="py-2" src="../assets/videos/gallery_page/1.mp4" controls></video> </div>
+            <div class="col-lg-3 col-md-4 mt-4 col-sm-6  card bg-transparent "> <video class="py-2" src="../assets/videos/gallery_page/2.mp4" controls></video></div>
+            <div class="col-lg-3 col-md-4 mt-4 col-sm-6 card bg-transparent "> <video class="py-2" src="../assets/videos/gallery_page/3.mp4" controls></video></div>
+            <div class="col-lg-3 col-md-4  mt-4 col-sm-6 card bg-transparent"> <video class="py-2" src="../assets/videos/gallery_page/4.mp4" controls></video></div>
+          </div>
         </div>
-        <!-- <span style="float:left" class="ss-icon" @click="galleryspin('-')">&lt;</span>
-        <span style="float:right" class="ss-icon" @click="galleryspin('')">&gt;</span> -->
-        <div class="container py-1">
-            <div class="row text-white">
-                <div class="col-lg-8 mx-auto">
-                    <h3> Images </h3>
-                </div>
-            </div>
-        </div><!-- End -->
-        <!-- 3D Slideshow Section --> 
-    <!-- <div id="slideshow">
-        <div class="entire-content">
-            <div class="content-carrousel">
-                <figure class="shadow"><video src="../assets/videos/mm.mp4" controls > </video></figure>
-                <figure class="shadow"><img src="../assets/images/carousal/carusal0.jpeg"/></figure>
-                <figure class="shadow"><img src="https://images.pexels.com/photos/567973/pexels-photo-567973.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/></figure>
-                <figure class="shadow"><img src="https://images.pexels.com/photos/776653/pexels-photo-776653.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/></figure>
-                <figure class="shadow"><img src="https://images.pexels.com/photos/54630/japanese-cherry-trees-flowers-spring-japanese-flowering-cherry-54630.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/></figure>
-                <figure class="shadow"><img src="https://images.pexels.com/photos/131046/pexels-photo-131046.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/></figure>
-                <figure class="shadow"><img src="https://images.pexels.com/photos/302515/pexels-photo-302515.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/></figure>
-                <figure class="shadow"><img src="https://images.pexels.com/photos/301682/pexels-photo-301682.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/></figure>
-                <figure class="shadow"><img src="https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/></figure>
-            </div>
-        </div>
-    </div> -->
-
-        <!-- Modal gallery -->
-
   <!-- Modal gallery -->
-    </div>
-</template>
 
-<style>
+
+  <div class="container gallery-container">
+ 
+    <h1> Our Gallery</h1>
+
+    <p class="page-description text-center">Grid Layout With Zoom Effect</p>
+    
+    <div class="tz-gallery  ">
+
+        <div class="row">
+            <div class=" overlay zoom  img-fluid col-sm-6 col-md-4">
+                <a class="lightbox" >
+                    <img src="../assets/images/gallery_page/11.jpeg" class=" rounded hoverable" alt="Park">
+                </a>
+            </div>
+            <div class=" overlay zoom img-fluid   col-sm-6 col-md-4">
+                <a class="lightbox">
+                    <img src="../assets/images/gallery_page/13.jpeg"   class="rounded" alt="Bridge">
+                </a>
+            </div>
+            <div class="overlay zoom img-fluid  col-sm-12 col-md-4">
+                <a class="lightbox" >
+                    <img src="../assets/images/gallery_page/12.jpeg" class="rounded"  alt="Tunnel">
+                </a>
+            </div>
+            <div class="overlay zoom img-fluid  col-sm-6 col-md-4">
+                <a class="lightbox" >
+                    <img src="../assets/images/gallery_page/14.jpeg" class="rounded"  alt="Coast">
+                </a>
+            </div>
+            <div class="overlay zoom img-fluid col-sm-6 col-md-4">
+                <a class="lightbox">
+                    <img src="../assets/images/gallery_page/15.jpeg" class="rounded" alt="Rails">
+                </a>
+            </div>
+            <div class="overlay zoom img-fluid  col-sm-6 col-md-4">
+                <a class="lightbox" >
+                    <img src="../assets/images/gallery_page/6.jpeg" class="rounded" alt="Traffic">
+                </a>
+            </div>
+            <div class="overlay zoom img-fluid  col-sm-6 col-md-4">
+                <a class="lightbox">
+                    <img src="../assets/images/gallery_page/13.jpeg" class="rounded" alt="Rocks">
+                </a>
+            </div>
+            <div class="overlay zoom img-fluid  col-sm-6 col-md-4">
+                <a class="lightbox" >
+                    <img src="../assets/images/gallery_page/5.jpeg" class="rounded" alt="Benches">
+                </a>
+            </div>
+            <div class="overlay zoom img-fluid  col-sm-6 col-md-4">
+                <a class="lightbox" >
+                    <img src="../assets/images/gallery_page/8.jpeg" class="rounded" alt="Sky">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="items">
+  <div class="gallery">
+    <span style="--i:1">
+      <img src="../assets/images/gallery_page/10.jpeg" alt="" />
+    </span>
+    <span style="--i:2">
+      <img src="../assets/images/gallery_page/12.jpeg" alt="" />
+    </span>
+    <span style="--i:3">
+      <img src="../assets/images/gallery_page/9.jpeg" alt="" />
+    </span>
+    <span style="--i:4">
+      <img src="../assets/images/gallery_page/8.jpeg" alt="" />
+    </span>
+    <span style="--i:5">
+      <img src="../assets/images/gallery_page/7.jpeg" alt="" />
+    </span>
+    <span style="--i:6">
+      <img src="../assets/images/gallery_page/9.jpeg" alt="" />
+    </span>
+    <span style="--i:7">
+      <img src="../assets/images/gallery_page/6.jpeg" alt="" />
+    </span>
+    <span style="--i:8">
+      <img src="../assets/images/gallery_page/15.jpeg" alt="" />
+    </span>
+  </div>
+</div>
+
+<div class="itemss">
+  <div class="galleryy">
+    <input type="checkbox" >
+    <img src="../assets/images/gallery_page/13.jpeg" alt="a forest after an apocalypse">
+    <img src="../assets/images/gallery_page/11.jpeg" alt="a waterfall and many rocks">
+    <img src="../assets/images/gallery_page/10.jpeg" alt="a house on a mountain">
+    <img src="../assets/images/gallery_page/9.jpeg" alt="sime pink flowers">
+    <img src="../assets/images/gallery_page/8.jpeg" alt="big rocks with some trees">
+    <img src="../assets/images/gallery_page/1.jpeg" alt="a waterfall, a lot of tree and a great view from the sky">
+    <img src="../assets/images/gallery_page/5.jpeg" alt="a cool landscape">
+    <img src="../assets/images/gallery_page/6.jpeg" alt="inside a town between two big buildings">
+  </div>
+</div>
+
+    </div>
+</template> 
+
+<style> 
 
 .close {
     font-size: 1.5rem;
@@ -202,47 +235,8 @@
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-div#carousel { 
-    perspective: 1200px; 
-    padding-top: 10%; 
-    font-size:0; 
-    margin-bottom:0; 
-    overflow: hidden; 
-  }
-  figure#spinner { 
-    transform-style: preserve-3d; 
-    height:500px; 
-    transform-origin: 50% 50% -500px; 
-    transition: 1s; 
-  } 
-  figure#spinner img { 
-    width: 40%; max-width: 425px; 
-    position: absolute; left: 30%;
-    transform-origin: 50% 50% -500px;
-    outline:1px solid transparent; 
-  }
-  figure#spinner img:nth-child(1) { transform:rotateY(0deg); 
-  }
-  figure#spinner img:nth-child(2) { transform: rotateY(-45deg); }
-  figure#spinner img:nth-child(3) { transform: rotateY(-90deg); }
-  figure#spinner img:nth-child(4) { transform: rotateY(-135deg); }
-  figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
-  figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
-  figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
-  figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
-  #carousel ~ span { 
-    color: #fff; 
-    margin: 5%; 
-    display: inline-block; 
-    text-decoration: none; 
-    font-size: 2rem; 
-    transition: 0.6s color; 
-    position: relative; 
-    margin-top: -6rem; 
-    border-bottom: none; 
-    line-height: 0; }
-  #carousel ~ span:hover { color: #888; cursor: pointer; }
-</style>
+
+</style> 
 
 <script>
 export default {
@@ -253,15 +247,7 @@ export default {
     },
 
     methods: {
-        galleryspin(sign) { 
-            var spinner = document.querySelector("#spinner");
-            if (!sign) { 
-                this.angle = this.angle + 45;
-             } 
-            else { 
-               this.angle = this.angle - 45; }
-            spinner.setAttribute("style","-webkit-transform: rotateY("+ this.angle +"deg); -moz-transform: rotateY("+ this.angle +"deg); transform: rotateY("+ this.angle +"deg);");
-        }
+       
     },
 }
  

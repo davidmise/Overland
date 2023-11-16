@@ -30,8 +30,11 @@
                         Tanzanian's enerav needs bv enhancina access to high guantv petroleum.
                     </h3>
                 </div>
-                <div class="col-md-4 bg-secondary">
-                    <h4>Image goes here</h4>
+                <div class="col-md-4 ">
+                 
+                    <div class="img mb-6 mt-0 pt-0">
+                        <img src="../assets/images/servicesPage/clearforward.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -60,8 +63,10 @@
                 </div>
 
                
-                <div class="col-md-5 bg-secondary">
-                    <h4>Image goes here</h4>
+                <div class="col-md-5">
+                    <div class="img">
+                        <img src="../assets/images/servicesPage/warhouse.png" width="500px" height="500px" alt="">
+                    </div>
                 </div>
 
                 <div class="col-md-4 ">
@@ -106,7 +111,9 @@
                     </h3>
                 </div>
                 <div class="col-md-4 bg-secondary">
-                    <h4>Image goes here</h4>
+                    <div class="img-fluid">
+                        <img src="" alt="">
+                    </div>
                 </div>
             </div>
         </div>
