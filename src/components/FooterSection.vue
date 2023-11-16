@@ -15,9 +15,9 @@
                         </ul>
                     </div><!--end col-->
 
-                    <div class="col-md-4 col-lg-6">
-                        <h4 class="text-light footer-head">LOCATION</h4>        
-                        <div class="card w-50 ">
+                    <div class="col-md-4 col-lg-6 col-sm-12">
+                        <h4 class=" mt-5 mt-lg-0 mt-md-0  text-light footer-head">LOCATION</h4>        
+                        <div class="card ">
                             <div class="card-body">
                               <h5 class="card-title">Head Quaters</h5>
                             </div>
@@ -26,52 +26,64 @@
                             </div>
                         </div> 
                     </div><!-- end col -->
-                    <div class=" col-lg-0 col-md-4 ">
+                    <div class=" col-lg-0 col-md-4  ">
                         <!-- Gallery -->
-                        <div class="row">
-                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <h4 class="mt-5 mt-lg-0 mt-md-0 ps-5  text-light footer-head">TOP CLIENTS </h4>  
+                        <div class="container">
+                            <div class="row">
 
-                              <img
-                              src="../assets/images/clients/tat.png"
-                              class="w-100 shadow-1-strong rounded mb-4 my-img"
-                              alt="Wintry Mountain Landscape"
-                              />
-
-                              <img
-                                src="../assets/images/clients/latra.png"
-                                class="w-100 shadow-1-strong rounded mb-4 pt-5"
-                                alt="Boat on Calm Water"
-                              />
+                              <div class="col-6">
+                                <img
+                                src="../assets/images/clients/tat.png"
+                                class="w-100 shadow-1-strong img-fluid rounded col-sm-2 mb-4 my-img"
+                                alt="Wintry Mountain Landscape"  
+                                />
+                              </div>
+                              <div class="col-6">
+                                <img
+                                    src="../assets/images/clients/latra.png"
+                                    class="w-100 shadow-1-strong img-fluid rounded col-sm-2 mb-4 pt-5"
+                                    alt="Boat on Calm Water"
+                                  />
+                            </div>
+                             
+                            </div>
                           
+                            <div class="row ">
+                              <div class="col-6">
+                                  <img
+                                  src="../assets/images/clients/tatoa.png"
+                                  class="w-100 shadow-1-strong img-fluid col-sm-6 rounded mb-4"
+                                  alt="Mountains in the Clouds"
+                                  />
+                              </div>
+                             
+                              <div class="col-6">
+                                  <img
+                                  src="../assets/images/clients/logo-07.png"
+                                  class="w-100 shadow-1-strong img-fluid col-sm-6 rounded mb-4"
+                                  alt="Boat on Calm Water"
+                                  />
+                              </div> 
+                            </div>
                             
-                            </div>
-                          
-                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 ">
-                              <img
-                                src="../assets/images/clients/tatoa.png"
-                                class="w-100 shadow-1-strong rounded mb-4"
-                                alt="Mountains in the Clouds"
-                              />
-                          
-                              <img
-                                src="../assets/images/clients/logo-07.png"
-                                class="w-100 shadow-1-strong rounded mb-4"
-                                alt="Boat on Calm Water"
-                              />
-                            </div>
-                          
-                            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                              <img
-                                src="../assets/images/clients/osha.png"
-                                class="w-100 shadow-1-strong rounded mb-4 "
-                                alt="Waves at Sea"
-                              />
-                          
-                              <img
+                            <div class="row">
+                             
+                              <div class="col-6">
+                                  <img
+                                  src="../assets/images/clients/osha.png"
+                                  class="w-100 shadow-1-strong img-fluid col-sm-6 rounded mb-4 "
+                                  alt="Waves at Sea"
+                                  />
+                              </div>
+                              <div class="col-6">
+                                <img
                                 src="../assets/images/clients/gcia.png"
-                                class="w-100 shadow-1-strong rounded mb-4"
+                                class="w-100 shadow-1-strong img-fluid col-sm-6 rounded mb-4"
                                 alt="Yosemite National Park"
-                              />
+                                />
+                              </div>
+                              
                             </div>
                         </div>
                           <!-- Gallery -->
