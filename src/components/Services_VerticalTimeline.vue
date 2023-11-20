@@ -72,7 +72,7 @@
 
                 <div class="col-md-5  col-lg-6">
                     <div class="img">
-                        <img src="../assets/images/servicesPage/truck05.png" width="800" alt="">
+                        <img src="../assets/images/servicesPage/truck1.png" width="800" alt="">
                     </div>
                 </div>
             </div>
