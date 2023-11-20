@@ -2,7 +2,7 @@
     <div class="container">                      
         <div class="row text-center justify-content-center mb-5">
             <div class="col-xl-6 col-lg-8">
-                <h2 class="font-weight-bold pt-5">A Company Evolution</h2>
+                <h2 class="font-weight-bold pt-5"> Our Company's Evolution</h2>
                 <p class="text-muted">We’re very proud of the path we’ve taken. Explore the history that made us the company we are today.</p>
             </div>
         </div>
@@ -113,4 +113,3 @@
       opacity: .5;
   }
   </style>
-  <!-- #3b82f6; -->

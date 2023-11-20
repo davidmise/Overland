@@ -16,44 +16,45 @@
           
                 <!-- CLEARING AND FORWARDING item -->
                 <div class="col-xl-4 col-sm-6 mb-5">
-                    <div class=" h-100 rounded shadow py-5 px-4">
+                    <div class=" h-100 rounded-5 shadow py-5 px-4">
                     <img src="../assets/images/icons/clear&forward1.png" 
                          alt="" width="200" class="img-fluid rounded-circle mb-3">
                          <h5 class="mb-0" style="color: rgb(32, 32, 98);">CLEARING AND FORWARDING</h5>
                          
                          <div class="card-body pt-2 fs-5" style="color:aliceblue; font-size:large; ">
-                             <p> We quarantee timel deliver o sea cargo bv oftering suitable vessels. ensuring etticient 
-                         handling from the origin countrv to the destination</p> </div>
+                             <p> We guarantee timely deliver of sea cargo by offering suitable vessels. ensuring efficient 
+                         handling from the origin country to the destination</p>
+                        </div>
                     </div>
                 </div><!-- End -->
           
                 <!-- CARGO TRACKING item -->
                 <div class="col-xl-4 col-sm-6 mb-5">
-                    <div class=" h-100 rounded shadow py-5 px-4">
+                    <div class=" h-100 rounded-5 shadow py-5 px-4">
                      
                           <img src="../assets/images/icons/cargotrack2.png" 
                           alt="" width="200"  class="img-fluid rounded-circle mb-3 ">
                           <h5 class="mb-0 pt-1" style="color: rgb(32, 32, 98)">CARGO TRACKING</h5>
                           
                           <div class="card-body pt-2 fs-5" style="color:aliceblue">
-                             <p>ve've developea a user-triendly ana robust 
-                              shipment management intertace that empowers our customers to track 
-                              their cargo's journev from the point of loading to its final destination</p> 
+                             <p>We've developed a user-friendly and robust 
+                              shipment management interface that empowers our customers to track 
+                              their cargo's journey from the point of loading to its final destination</p> 
                           </div>
                     </div>
                 </div><!-- End -->
           
                 <!-- ROAD FREIGHT item -->
                 <div class="col-xl-4 col-sm-6 mb-5">
-                    <div class=" h-100 rounded shadow py-5 px-4">
-                      <img src="../assets/images/icons/roadfreight3.png" 
+                    <div class=" h-100 rounded-5 shadow py-5 px-4">
+                      <img src="../assets/images/icons/truckicon.png" 
                       alt="" width="200"  height="200"  class=" img-fluid rounded-circle ">
                         <h5 class="mb-0 pt-3" style="color:rgb(32, 32, 98)">ROAD FREIGHT</h5>
                         <div class="card-body pt-2 fs-5" style="color:aliceblue">
-                          <p>  We offer comprenensive door-to-door ground freight services for both 
+                          <p>  We offer comprehensive door-to-door ground freight services for both 
                                domestic and international shipments, catering to both full truck load
                                and less than a truck load full truck load and less than a truck load
-                               recuirements
+                               requirements
                           </p>
                         </div>
                     </div>
@@ -69,28 +70,27 @@
               </div>
           </div><!-- End -->
   
-          <div class="container">
-              <div class="row text-center">
+          <div class="container bg-black rounded-5">
+              <div class="row text-center text-white ">
                   <div class="col-xl-6 col-sm-4 mb-5 bg-red">
-                      <div class="">
+                      <div class="" style="margin-top:50%">
                           <div class=" text-center">
-                          <h3 style="opacity:0.9">  we are dedicated to providing added value to our 
-                              customers by using cutting-edge technology into our work.
-                              That is why the goal for continuous improvement is the 
-                              engine genie ourtransoortation coman.
-                          </h3>
+                            <h3 style="opacity:0.9">
+                                We are dedicated to providing added value to our 
+                                customers by using cutting-edge technology into our work.
+                                That is why the goal for continuous improvement is the 
+                                engine behind our transportation company.
+                            </h3>
                           </div>
                       </div>
                   </div><!-- End -->
   
-                  <div class="col-xl-2 col-sm-4 mb-5 "></div>
-                  
-  
-                  <div class="col-xl-4 col-sm-4 mb-5 pt-0 ">
-    
-                      <video width="360" height="280" controls>
-                          <source :src="main.bgVideo" type="video/mp4">
-                      </video>
+               
+
+                  <div class="col-xl-6 col-sm-4 mb-5 pt-0" >
+                    <h4> map goes here</h4>
+                   <video src="../assets/videos/map0.mp4" class="opacity-75" autoplay style="background:transparent; height: 100vh;"></video>
+                     
                   </div>
               </div><!-- End -->
           </div>
@@ -109,16 +109,7 @@ export default {
             }
         }
     },
-    // methods: {
-    //     supportType(e,vidType,codType) { 
-    //         let vid = document.createElement('video');
-    //         isSupp = vid.canPlayType(vidType+';codecs="'+codType+'"');
-    //         if (isSupp == "") {
-    //             isSupp = "No";
-    //         }
-    //         e.target.parentNode.innerHTML = "Answer: " + isSupp;
-    //     } 
-    // },
+    
 }
 </script>
 

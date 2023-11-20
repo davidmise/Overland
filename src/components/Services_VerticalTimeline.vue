@@ -3,116 +3,111 @@
 
         <div class="container mt-5 mb-5 section">
             <div class="row d-flex justify-content-center">
-                <div class="col-md-4 mt-5"  id="Bulk">
+                <dziv class="col-md-4 col-lg-12 mt-5"  id="Bulk">
+                    <span class="display-5 text-white"> 1. Bulk Fuel supply</span>
                     <h4>Our Services </h4>
                     <ul class="timeline">
                         <li>
-                            <a style="color: rgb(244, 247, 248);"  class="nav-link" href="#Bulk">Bulk Fuel supply</a>
+                            <a style="color: rgb(25, 182, 234);"  class="nav-link" href="#Bulk">Bulk Fuel supply</a>
                         </li>
                         <li>
-                            <a  class="nav-link" href="#Transport">Transportation and logistics</a>
+                            <a  class="nav-link opacity-75 text-white" href="#Transport">Transportation and logistics</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="#Clearing">Clearina and forwardina</a>  
+                            <a class="nav-link opacity-75 text-white" href="#Clearing">Clearing and forwarding</a>  
                         </li>
                         <li>
-                            <a class="nav-link" href="#Warehousing">Warehousina</a> 
+                            <a class="nav-link opacity-75 text-white" href="#Warehousing">Warehousing</a> 
                         </li>
                     </ul>
-                </div>
+                </dziv>
 
-                <div class="col-md-4 ">
-                    <h3 class=" opacity-75 text-center ">
-                        Overland Petroleum is an emerging indigenous petroleum products
-                        marketing and trading company in Tanzania. 
-                        Overland Petroleum's arand entr into the oil 
-                        and gas sector was with the drive and commitment to meet 
-                        Tanzanian's enerav needs bv enhancina access to high guantv petroleum.
+                <div class="col-md-4 mt-5 col-lg-6">
+                    <h3 class=" opacity-75 text-white">
+                            Overland Petroleum is an emerging indigenous petroleum
+                            products marketing and trading company in Tanzania. Overland
+                            Petroleum's grand entry into the oil and gas sector was with 
+                            the drive and commitment to meet Tanzanian’s energy needs by 
+                            enhancing access to high-quality petroleum
                     </h3>
                 </div>
-                <div class="col-md-4 ">
+                <div class="col-md-4  col-lg-6 ">
                  
-                    <div class="img mb-6 mt-0 pt-0">
-                        <img src="../assets/images/servicesPage/clearforward.png" alt="">
+                    <div class="img mb-6  mt-0 pt-0  bg-secondary h-100">
+                        <img src="" alt="" >
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="container mt-5 mb-5 section " id="Transport">
+        <div class="container mt-5  mb-5 section " id="Transport">
             <div class="row d-flex justify-content-center">
-
-                <div class="col-md-3 " >
+                <span class="display-5 text-white "> 2. Transportation and logistics</span>
+                <div class="col-md-3 col-lg-12" >
                     <ul class="timeline">
                         <li>
-                            <a   class="nav-link" href="#Bulk">Bulk Fuel supply</a>
+                            <a   class="nav-link opacity-75 text-white" href="#Bulk">Bulk Fuel supply</a>
                         </li>
 
                         <li>
-                            <a style="color: rgb(244, 247, 248);"  class="nav-link" href="#Transport">Transportation and logistics</a>
+                            <a style="color: rgb(25, 182, 234);"  class="nav-link text-whit" href="#Transport">Transportation and logistics</a>
                         </li>
 
                         <li>
-                            <a class="nav-link" href="#Clearing">Clearing and forwarding</a>  
+                            <a class="nav-link opacity-75 text-white" href="#Clearing">Clearing and forwarding</a>  
                         </li>
 
                         <li>
-                            <a class="nav-link" href="#wherehousing">Warehousing</a> 
+                            <a class="nav-link opacity-75 text-white" href="#wherehousing">Warehousing</a> 
                         </li>
                     </ul>
                 </div>
 
                
-                <div class="col-md-5">
-                    <div class="img">
-                        <img src="../assets/images/servicesPage/warhouse.png" width="500px" height="500px" alt="">
-                    </div>
+                <div class="col-md-4 mt-5 col-lg-6 ">
+                    <h3 class=" opacity-75 text-white" >
+                        Providing logistics and transportation services is our core competency. Our main functional areas is transportation, We have enough fleet of 550 trucks and equipments that are operated by highly professional persons, who are ready to pick and deliver cargo of nearly any dimension and structure.
+                    </h3>
                 </div>
 
-                <div class="col-md-4 ">
-                    <h3 class=" opacity-75">
-                        Providing logistics and transportation services
-                        is our core competencv. Our main functional areas
-                         is transportation. We have enough fleet of 550 
-                         trucks and eculoments tharare overareo by nignly 
-                         professional persons, who are ready to pick and 
-                         deliver cargo or nearly any aimension and structure.
-                    </h3>
+                <div class="col-md-5  col-lg-6">
+                    <div class="img">
+                        <img src="../assets/images/servicesPage/truck05.png" width="800" alt="">
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="container mt-5 mb-5  section" id="Clearing">
             <div class="row d-flex justify-content-center">
-
-                <div class="col-md-3" >
+                <span class="display-5 text-white">3. Clearing and forwarding</span>
+                <div class="col-md-3 col-lg-12" >
                     <ul class="timeline">
                         <li>
-                            <a   class="nav-link" href="#Bulk">Bulk Fuel supply</a>
+                            <a   class="nav-link opacity-75 text-white" href="#Bulk">Bulk Fuel supply</a>
                         </li>
                         <li>
-                            <a  class="nav-link" href="#Transport">Transportation and logistics</a>
+                            <a  class="nav-link opacity-75 text-white" href="#Transport">Transportation and logistics</a>
                         </li>
                         <li>
-                            <a style="color: rgb(244, 247, 248);" class="nav-link" href="#Clearing">Clearina and forwardina</a>  
+                            <a style="color:  rgb(25, 182, 234);" class="nav-link" href="#Clearing">Clearing and forwarding</a>  
                         </li>
                         <li>
-                            <a class="nav-link" href="#wherehousing">Warehousina</a> 
+                            <a class="nav-link opacity-75 text-white" href="#wherehousing">Warehousina</a> 
                         </li>
                     </ul>
                 </div>
 
-                <div class="col-md-5 ">
-                    <h3 class=" opacity-75 text-center">
-                        Streamlinina cargo operations through
-                         expert clearing and forwarding services,
-                          ensuring smootn transit and timely delivery
+                <div class="col-md-5 mt-5 col-lg-6 ">
+                    <h3 class=" opacity-75 text-white ">
+                        Streamlining cargo operations through expert clearing and forwarding services, ensuring smooth transit and timely delivery.
                         
                     </h3>
                 </div>
-                <div class="col-md-4 bg-secondary">
+
+                <div class="col-md-4 col-lg-6 ">
                     <div class="img-fluid">
-                        <img src="" alt="">
+                        <img src="../assets/images/servicesPage/clearforward.png" alt="">
                     </div>
                 </div>
             </div>
@@ -120,51 +115,48 @@
 
         <div class="container mb-5 section">
             <div class="row d-flex justify-content-center">
-
-                <div class="col-md-4" id="wherehousing">
+                <span class="display-5 text-white">4. Warehousing</span>
+                <div class="col-md-4 col-lg-12" id="wherehousing">
                     <ul class="timeline">
                         <li>
-                            <a   class="nav-link" href="#Bulk">Bulk Fuel supply</a>
+                            <a   class="nav-link opacity-75 text-white" href="#Bulk">Bulk Fuel supply</a>
                         </li>
 
                         <li>
-                            <a  class="nav-link" href="#Transport">Transportation and logistics</a>
+                            <a  class="nav-link opacity-75 text-white" href="#Transport">Transportation and logistics</a>
                         </li>
 
                         <li>
-                            <a class="nav-link" href="#Clearing">Clearina and forwardina</a>  
+                            <a class="nav-link opacity-75 text-white" href="#Clearing">Clearing and forwarding</a>  
                         </li>
 
                         <li>
-                            <a style="color: rgb(244, 247, 248);"  class="nav-link" href="#wherehousing">Warehousina</a> 
+                            <a style="color: rgb(25, 182, 234);"  class="nav-link" href="#wherehousing">Warehousing</a> 
                         </li>
                     </ul>
                 </div>
 
                
-                <div class="col-md-4 bg-secondary ">
-                    <h4>Image goes here</h4>
+
+                <div class="col-md-4 mt-5 col-lg-6 ">
+                    <h3 class=" opacity-75 text-white">
+                        Discover Our State-of-the-Art Warehouse:
+                         Your Trusted Partner for Seamless Storage 
+                         and Timely distribution.
+                    </h3>
                 </div>
 
-                <div class="col-md-4 ">
-                    <h3 class=" opacity-75">
-                        Discover Our State-of-the-Art 
-                        Warehouse:  Your trusted Partner
-                         for seamless storage and limely distribution.
-                    </h3>
+                <div class="col-md-4 col-lg-6 ">
+                    <img src="../assets/images/servicesPage/warhouse.png" width="500px" height="500px" alt="">
                 </div>
             </div>
         </div>
-
-        
-        <!-- <div class="text-muted mt-5  text-center small">by : <a class="text-muted" target="_blank" href="http://totoprayogo.com">totoprayogo.com</a></div> -->
-        
    </div>
 </template>
 
 <style>
 .section{
-    min-height: 80vh;
+    min-height: 75vh;
 }
 ul.timeline {
     list-style-type: none;

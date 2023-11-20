@@ -2,14 +2,14 @@
   <div>
     <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div v-for="(image, index) in images" :key="index" :class="['carousel-item', index === 0 ? 'active' : '']">
-          <img :src="image" class="d-block w-100" alt="Slide" />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+        <div v-for="(image, index) in images" :key="index" :class="['carousel-item cont opacity-75 slide', index === 0 ? 'active' : '']">
+          <img :src="image" class="  img d-block w-100" alt="Slide" />
+          <div class="centered fw-bold display-4">
+             <span>  WE SOLVE YOUR </span> <br> 
+             <span> TRANSPORTATION </span> <br> 
+             <span> CHALLANGES </span>  
           </div>
         </div>
-       
       </div>
       <button class="carousel-control-prev carousel-dark" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>

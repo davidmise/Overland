@@ -2,129 +2,57 @@
 	<div class="container py-5">
 		<div class="main-timeline-4 fade-in">
 		  <div class="timeline-4 left-4" data-mdb-toggle="animation" data-mdb-animation-start="onckick" data-mdb-animation="slide-in-left">
-			<div class="card gradient-custom">
+			<div class="card rounded-5 gradient-custom">
 			  <div class="card-body p-4"> 
-				<i class="fas fa-brain fa-2x mb-3"></i>
-				<h4>head 1</h4>
-				<p class="small text-white-50 mb-4">May 21</p>
-				<p>Established in 1990, E. Awadh & Co. LTD is a
-					rivare combany win a strono recutation To
+				<p>
+					Established in 1990, E. Awadh & Co. LTD is a
+					private company with a strong reputation for 
 					excellence in the logistics industry.
 					In 2006, we expanded our services
-					and tounded overland Logisticsclearina and
-					Forwardina. based in Dar es Salaam, Tanzania
-					With over 30 vears of experience.
+					and founded Overland Logistics Clearing and
+					Forwarding, based in Dar es Salaam, Tanzania
+					With over 30 years of experience,
 					our team of professional drivers and dedicated 
-					StaTT vonoios the nionest va
+					Staff upholds the highest values
 					principles of our company.
 				</p>
-				<h6 class="badge bg-light text-black mb-0">New</h6>
-				<h6 class="badge bg-light text-black mb-0">Admin</h6>
+				
 			  </div>
 			</div>
 		   </div>
 
 		  <div class="timeline-4 right-4">
-			<div class="card gradient-custom-4">
-			  <div class="card-body p-4">
-				<i class="fas fa-camera fa-2x mb-3"></i>
-				<h4>head 2</h4>
-				<p class="small text-white-50 mb-4">May 18</p>
-				<p>The scope of our operations extends, Burundi, DRC,
-					Malawi. Rwanda. Uganda. and Zambia. We set up a branch
-					Tim ranzaniato overseethe extensive network
-				</p>
-				<h6 class="badge bg-light text-black mb-0">New</h6>
-				<h6 class="badge bg-light text-black mb-0">Admin</h6>
-			  </div>
+			<div class="card rounded-5  gradient-custom-4" >
+
+				<div class="card-body p-4">
+					<p style="opacity:0.9">
+						Clients will receive numerous benefits by selecting E
+						AWadh & CO, Ltd as a service provider.
+					</p>
+						<ul>
+							<li>The cargo is delivered quickly (on time).</li>
+							<li>High safely standards when handling client's goods.</li>
+							<li> complete services from customs clearance to door delivery.</li>
+							<li> Service (agency) cost is relative low.</li>
+							<li>Outstanding customer service</li>
+						</ul>
+				  </div>
+			  
 			</div>
 		  </div>
+
 		  <div class="timeline-4 left-4">
-			<div class="card gradient-custom">
-			  <div class="card-body p-4">
-				<i class="fas fa-campground fa-2x mb-3"></i>
-				<h4>head 3</h4>
-				<p class="small text-white-50 mb-4">May 6</p>
-				<p style="opacity:0.9">Clients will receive numerous benefits by selecting E
-					AWadh & CO, Ltd as a servIce provider.</p>
-					<ul>
-						<li>The cardo is delivered quickiv (on time).</li>
-						<li>High safetv standards when handling client's goods.</li>
-						<li> complete servicesTrom custons ciearance o goodelivery.</li>
-						<li> Service ladencvcostis relative iow.</li>
-						<li>Outstanding customer service</li>
-					</ul>
-	
-				
-				<h6 class="badge bg-light text-black mb-0">New</h6>
-				<h6 class="badge bg-light text-black mb-0">Admin</h6>
-			  </div>
+			<div class="card rounded-5  gradient-custom">
+				<div class="card-body p-4 pb-5">
+					<p>
+						The scope of our operations extends, Burundi, DRC,
+						Malawi, Rwanda, Uganda and Zambia. We set up a branch
+						in Tanzania to oversee the extensive network.
+					</p>
+				  </div>
 			</div>
 		  </div>
-		  <div class="timeline-4 right-4">
-			<div class="card gradient-custom-4">
-			  <div class="card-body p-4">
-				<i class="fas fa-sun fa-2x mb-3"></i>
-				<h4>head 4</h4>
-				<p class="small text-white-50 mb-4">Apr 26</p>
-				<p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-				  mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua
-				  dignissim
-				  per, habeo iusto primis ea eam.
-				</p>
-				<h6 class="badge bg-light text-black mb-0">New</h6>
-				<h6 class="badge bg-light text-black mb-0">Admin</h6>
-			  </div>
-			</div>
-		  </div>
-		  <div class="timeline-4 left-4">
-			<div class="card gradient-custom">
-			  <div class="card-body p-4">
-				<i class="fas fa-palette fa-2x mb-3"></i>
-				<h4>head 5</h4>
-				<p class="small text-white-50 mb-4">Apr 12</p>
-				<p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-				  mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua
-				  dignissim
-				  per, habeo iusto primis ea eam.
-				</p>
-				<h6 class="badge bg-light text-black mb-0">New</h6>
-				<h6 class="badge bg-light text-black mb-0">Admin</h6>
-			  </div>
-			</div>
-		  </div>
-		  <div class="timeline-4 right-4">
-			<div class="card gradient-custom-4">
-			  <div class="card-body p-4">
-				<i class="fas fa-laugh-beam fa-2x mb-3"></i>
-				<h4>head 6</h4>
-				<p class="small text-white-50 mb-4">Apr 11</p>
-				<p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-				  mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua
-				  dignissim
-				  per, habeo iusto primis ea eam.
-				</p>
-				<h6 class="badge bg-light text-black mb-0">New</h6>
-				<h6 class="badge bg-light text-black mb-0">Admin</h6>
-			  </div>
-			</div>
-		  </div>
-		  <div class="timeline-4 left-4">
-			<div class="card gradient-custom">
-			  <div class="card-body p-4">
-				<i class="fas fa-pizza-slice fa-2x mb-3"></i>
-				<h4>head 7</h4>
-				<p class="small text-white-50 mb-4">Apr 5</p>
-				<p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
-				  mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua
-				  dignissim
-				  per, habeo iusto primis ea eam.
-				</p>
-				<h6 class="badge bg-light text-black mb-0">New</h6>
-				<h6 class="badge bg-light text-black mb-0">Admin</h6>
-			  </div>
-			</div>
-		  </div>
+		  
 		</div>
 	  </div>
 	  

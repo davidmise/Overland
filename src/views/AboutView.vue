@@ -2,20 +2,17 @@
   <section>
     <div>
       <div id="carouselExampleControls" class="carousel slide rounded-5 shadow-lg" data-bs-ride="carousel">
-        <div class="carousel-inner rounded-5" style="border: 1px solid rgb(32,32,98);">
-          <div v-for="(image, index) in images" :key="index" :class="['carousel-item', index === 0 ? 'active' : '']">
+        <div class="carousel-inner rounded-5" >
+          <div v-for="(image, index) in images" :key="index" :class="['carousel-item slide rounded-5 opacity-75', index === 0 ? 'active' : '']">
             <img :src="image" class="d-block w-100" alt="Slide"  />
+            <div class="centered fw-bold display-1 text-white "> 
+              <span> ABOUT US </span> 
+           </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container py-5">
-      <div class="row text-center text-white">
-          <div class="col-lg-8 mx-auto">
-              <h1 class="display-4"> ABOUT US</h1>
-          </div>
-      </div>
-  </div><!-- End -->
+  
   <TimeLine></TimeLine>
   <RoundedCards></RoundedCards>
   <HorizontalTimeline></HorizontalTimeline>
@@ -23,7 +20,7 @@
 
 </template>
 <script>
-import bridge from '../assets/images/carousal/carusal0.jpeg';
+import bridge from '../assets/images/gallery_page/2.jpeg';
 import TimeLine from '../components/About_us_TimeLine.vue'
 import RoundedCards from '../components/About_us_RoundedCards.vue';
 import HorizontalTimeline from '../components/About_us_Horizontal_Timeline.vue';

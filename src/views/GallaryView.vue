@@ -1,6 +1,5 @@
 <template>
     <section class="bg-dark p-0">
-
         <div class="container py-5">
             <div class="row text-center text-white">
                 <div class="col-lg-8 mx-auto">
