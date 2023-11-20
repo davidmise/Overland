@@ -114,6 +114,7 @@
                             <li class="list-inline-item"><a href="https://www.overland.co.tz/About-Us#" class="rounded"><i class="mdi mdi-twitter" title="Twitter"></i></a></li>
                             <li class="list-inline-item"><a href="jhttps://www.youtube.com/channel/UC5f_2C5rs0m9nqM15OT_byg" class="rounded"><i class="mdi mdi-youtube" title="YouTube"></i></a></li>
                             <li class="list-inline-item"><a href="https://www.linkedin.com/company/overland-carriers/" class="rounded"><i class="mdi mdi-linkedin" title="Linkedin"></i></a></li>
+                            <li class="list-inline-item"><a href="https://wa.me/255747600008" class="rounded"> <i class="mdi mdi-whatsapp" title="Whatsapp"></i></a></li>
                         </ul><!--end icon-->
                     </div><!--end col-->
 
